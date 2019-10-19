@@ -1,0 +1,20 @@
+prompt user how long they want their password between 8-129 characters
+save that prompt in a variable
+
+ask user if they want capital letters
+save all capital letters in array if they say yes
+
+ask user if they want lowercase letters
+save all lowercase letters in same array
+
+ask user if they want numbers
+save all numbers in the same array
+
+ask user if they want special characters
+save all special characters in same array
+
+alert user to please click generate button to get password
+
+have a password generate after click to show random password based on their selections
+
+bave the copy button become available and after click on copy have an alert saying the password was saved to clipboard

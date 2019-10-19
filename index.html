@@ -14,28 +14,36 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <header class="row justify-content-end">
-            <!-- bootstrap nav bar -->
-            <div class="col col-auto">
-                <nav class="navbar navbar-light bg-light">
-                    <form class="form-inline">
-                        <button class="btn btn-outline-success buttonHeader" type="button">My Homepage</button>
-                    </form>
-                </nav>
+    <header>
+        <!-- bootstrap nav bar -->
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand navLink" href="#">Back to My Homepage</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- first row with title -->
+        <div class="row">
+            <div class="col col-6 mx-auto">
+                <h1>Random Password Generator</h1>
             </div>
-        </header>
+        </div>
+        <!-- 2nd row with the password display -->
+        <div class="row">
+            <div class="col col-10 mx-auto">
+                <input type="text" id="display" placeholder="Your Password Will Show Here">
+            </div>
+        </div>
+        <!-- 3rd row with the buttons -->
+        <div class="row">
+            <div class="col-auto mx-auto">
+                <button type="button" class="btn btn-primary btn-lg" onclick="">Generate</button>
+            </div>
+            <div class="col-auto mx-auto">
+                <button type="button" class="btn btn-primary btn-lg" onclick="">Copy</button>
+            </div>
+        </div>
     </div>
-
-    <div class="row justify-content-center">
-        <h1 class="col col-auto">
-            Password Generator
-        </h1>
-   </div>
-
-    <script>
-
-    </script>
 
     <!-- bootstrap javascript link -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
