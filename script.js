@@ -1,6 +1,8 @@
 // variable for all possible characters to choose from based on user decisions
 var passCharacters = [];
 
+var password = [];
+
 // user prompt to determine how long the user wants the password
 do {
     var passLength = parseInt(window.prompt("Please choose a password length between 8 and 128 characters",""), 10);
@@ -29,6 +31,24 @@ var d = confirm("Do you want to have special characters in your password?");
     if (d === true) {
         passCharacters.push("!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "?", "=", "+");
     }
+    else if (a === false && b === false && c === false && d === false) {
+        alert("You must choose at least one option!");
+    }
 
+// for loop to choose password characters
+function generate () {
+for (var i = 0; i < passLength; i++) {
+    password = passCharacters[Math.floor(Math.random() * passCharacters.length)];
+}
+document.getElementById("display").value = password;
+}
+// end of generate function
+
+// function to copy to clipboard
+function copyPassword() {
+    document.getElementById("display").select();
+    document.execCommand("Copy");
+    alert("Password was copied to clipboard");
+}
 
 
