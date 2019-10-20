@@ -13,6 +13,8 @@ save all numbers in the same array
 ask user if they want special characters
 save all special characters in same array
 
+based on length wanted and what they wanted to include into the password generate random password
+
 alert user to please click generate button to get password
 
 have a password generate after click to show random password based on their selections
