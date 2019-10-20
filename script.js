@@ -5,7 +5,7 @@ var password = [];
 
 // user prompt to determine how long the user wants the password
 do {
-    var passLength = parseInt(window.prompt("Please choose a password length between 8 and 128 characters",""), 10);
+    var passLength = parseInt(window.prompt("Please choose a password length between 8 and 128 characters",""));
 }while(isNaN(passLength) || passLength > 128 || passLength < 8);
 
 // adds lowercase letters to passCharacters if user hits ok
@@ -32,13 +32,14 @@ var d = confirm("Do you want to have special characters in your password?");
         passCharacters.push("!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "?", "=", "+");
     }
     else if (a === false && b === false && c === false && d === false) {
-        alert("You must choose at least one option!");
+        alert("You must choose at least one option! The webpage will now reload.");
+        window.location.reload();
     }
 
-// for loop to choose password characters
+// for loop to choose password characters and to display it on webpage
 function generate () {
 for (var i = 0; i < passLength; i++) {
-    password = passCharacters[Math.floor(Math.random() * passCharacters.length)];
+    password = password + passCharacters[Math.floor(Math.random() * Math.floor(passCharacters.length -1))];
 }
 document.getElementById("display").value = password;
 }
