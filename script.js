@@ -1,7 +1,7 @@
 // variable for all possible characters to choose from based on user decisions
 var passCharacters = [];
 
-var password = [];
+var password = "";
 
 // user prompt to determine how long the user wants the password
 do {
@@ -42,6 +42,7 @@ for (var i = 0; i < passLength; i++) {
     password = password + passCharacters[Math.floor(Math.random() * Math.floor(passCharacters.length -1))];
 }
 document.getElementById("display").value = password;
+password = "";
 }
 // end of generate function
 
