@@ -33,6 +33,8 @@ var d = confirm("Do you want to have special characters in your password?");
     }
     else if (a === false && b === false && c === false && d === false) {
         alert("You must choose at least one option! The webpage will now reload.");
+        
+        // reloads the webpage if they don't choose any passCharacters options
         window.location.reload();
     }
 
@@ -42,6 +44,8 @@ for (var i = 0; i < passLength; i++) {
     password = password + passCharacters[Math.floor(Math.random() * Math.floor(passCharacters.length -1))];
 }
 document.getElementById("display").value = password;
+
+// resets the password back to nothing so the button generate shows a new password based on the passLength
 password = "";
 }
 // end of generate function
