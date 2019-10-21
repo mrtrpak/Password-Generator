@@ -14,4 +14,4 @@ Whether you need a new password for one of the many monthly subscriptions that a
 
 ## Photo
 
-![Website Photo](/webphoto.png)
+![Website Photo](/Photos/webphoto.png)

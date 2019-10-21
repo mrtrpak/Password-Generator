@@ -19,4 +19,4 @@ alert user to please click generate button to get password
 
 have a password generate after click to show random password based on their selections
 
-bave the copy button become available and after click on copy have an alert saying the password was saved to clipboard
+save the copy button become available and after click on copy have an alert saying the password was saved to clipboard
