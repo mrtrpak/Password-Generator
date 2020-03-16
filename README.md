@@ -8,6 +8,11 @@ I have created a password generator that will create a password based on the use
 
 Whether you need a new password for one of the many monthly subscriptions that are out there these days, need to update current passwords, or just want a truly unique password this will create a unique password tailored to what you want in it. With this being a random password generator it makes your password more secure and can be a valuable tool to have.
 
+## Tools Used
+
+- JavaScript
+- CSS
+
 ## Link
 
 [Password Generator](https://mrtrpak.github.io/Password-Generator/)
