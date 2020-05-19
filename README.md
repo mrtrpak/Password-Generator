@@ -6,6 +6,7 @@
 - [Application](#Application)
 - [Tools Used](#Tools-Used)
 - [Link](#Link)
+- [Updated App](#Updated-Password-Generator)
 - [Photo](#Photo)
 
 ## Description
