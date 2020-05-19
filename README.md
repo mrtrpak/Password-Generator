@@ -1,5 +1,13 @@
 # Password-Generator
 
+## Table of Contents
+
+- [Description](#Description)
+- [Application](#Application)
+- [Tools Used](#Tools-Used)
+- [Link](#Link)
+- [Photo](#Photo)
+
 ## Description
 
 I have created a password generator that will create a password based on the user input. I first ask the user how many characters they want in it between 8-128 characters. then I ask if they want lowercase, uppercase, numbers, and or special characters in it. In it I make sure that they choose at least one option so it can run properly. Once they generate the password they can hit the copy button to save it to the clipboard.
