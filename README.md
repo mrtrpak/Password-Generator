@@ -25,6 +25,10 @@ Whether you need a new password for one of the many monthly subscriptions that a
 
 [Password Generator](https://mrtrpak.github.io/Password-Generator/)
 
+## Updated Password Generator
+
+- [2nd Password Generator](https://github.com/mrtrpak/password-generator-2/)
+
 ## Photo
 
 ![Website Photo](/Photos/webphoto.png)
